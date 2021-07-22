@@ -2,6 +2,7 @@
 // and select "Open with Live Server"
 
 // Your Code Here.
+let max = prompt ("What is the highest number you would like to go to?")
 function snapCrackle(max) {
     
     let output = ""
@@ -27,4 +28,4 @@ function snapCrackle(max) {
     }
     return output;
 }
-document.write(snapCrackle(100))
+document.write(snapCrackle(max))
